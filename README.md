@@ -114,7 +114,9 @@ The stop threshold and task delay can be changed in `components/safety/safety.h`
 
 ## Hardware Verification
 
-The firmware has not been built or run on an ESP32 in the environment used to prepare this repository. Keep the wheels off the ground during initial testing and check the following:
+The firmware has been run and tested on physical ESP32 hardware by the project author.
+
+When testing your own setup, keep the wheels off the ground during initial testing and use the following checklist:
 
 - On boot, the motors remain stopped and Bluetooth is disabled.
 - An unauthorized card does not unlock the car; an authorized card enables Bluetooth.
