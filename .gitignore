@@ -1,0 +1,15 @@
+# ESP-IDF build output and downloaded dependencies
+/build/
+/managed_components/
+/sdkconfig.old
+
+# Local editor / operating system files
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
